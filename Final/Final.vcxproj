@@ -38,8 +38,11 @@
     <ClCompile Include="cache.c" />
     <ClCompile Include="context.c" />
     <ClCompile Include="create.c" />
+    <ClCompile Include="dirctrl.c" />
     <ClCompile Include="file.c" />
     <ClCompile Include="process.c" />
+    <ClCompile Include="queryinfo.c" />
+    <ClCompile Include="setinfo.c" />
     <ResourceCompile Include="Final.rc" />
     <ClCompile Include="Final.c" />
     <Inf Include="Final.inf" />

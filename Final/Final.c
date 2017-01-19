@@ -65,6 +65,13 @@ EXTERN_C_END
 #pragma alloc_text(PAGE,PreCreate)
 #pragma alloc_text(PAGE,PostCreate)
 
+#pragma alloc_text(PAGE,PreQueryInfo)
+#pragma alloc_text(PAGE,PostQueryInfo)
+#pragma alloc_text(PAGE,PreSetInfo)
+#pragma alloc_text(PAGE,PreDirCtrl)
+#pragma alloc_text(PAGE,PostDirCtrl)
+
+
 #endif
 
 //
@@ -79,6 +86,11 @@ CONST FLT_OPERATION_REGISTRATION Callbacks[] = {
 		PreCreate,
 		PostCreate
 	},
+
+	{ IRP_MJ_QUERY_INFORMATION, 0, PreQueryInfo, PostQueryInfo },
+	{ IRP_MJ_SET_INFORMATION,   0, PreSetInfo,   NULL },
+	{ IRP_MJ_DIRECTORY_CONTROL, 0, PreDirCtrl,   PostDirCtrl },
+
 
 
     { IRP_MJ_OPERATION_END }

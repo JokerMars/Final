@@ -8,6 +8,7 @@
 #define RESOURCE_TAG		'rtSC'
 #define CONTEXT_TAG			'CTSC'
 #define PRE_2_POST_TAG		'PPSC'
+#define BUFFER_SWAP_TAG		'bstc'
 
 typedef struct _STREAM_CONTEXT
 {

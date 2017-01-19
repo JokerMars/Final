@@ -182,7 +182,7 @@ PostCreate(
 		SC_UNLOCK(pStreamCtx, OldIrql);
 
 
-		
+		KdPrint(("\nIRP_MJ_CREATE\n"));
 		KdPrint(("    Process Name: %s\n", procName));
 		KdPrint(("    File Name: %wZ", &pStreamCtx->uniFileName));
 		KdPrint(("    File Size: %d\n", FileSize.QuadPart));

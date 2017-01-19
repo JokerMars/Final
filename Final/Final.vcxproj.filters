@@ -42,6 +42,15 @@
     <ClCompile Include="cache.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="queryinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dirctrl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="setinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Final.rc">

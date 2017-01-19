@@ -7,6 +7,7 @@
 #define FILE_GUID_LEN		16
 #define FILE_FLAG_LEN		PAGE_SIZE
 #define FILEFLAG_POOL_TAG	'FASV'
+#define NAME_TAG			'ntsv'
 
 #pragma pack(1)
 
